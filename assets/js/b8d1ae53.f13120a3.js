@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportus_docs=self.webpackChunkportus_docs||[]).push([[196],{7497:function(o){o.exports=JSON.parse('{"permalink":"/portus-docs/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
