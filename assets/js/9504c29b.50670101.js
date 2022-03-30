@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportus_docs=self.webpackChunkportus_docs||[]).push([[621],{9051:function(s){s.exports=JSON.parse('{"allTagsPath":"/portus-docs/blog/tags","name":"facebook","count":1,"permalink":"/portus-docs/blog/tags/facebook"}')}}]);

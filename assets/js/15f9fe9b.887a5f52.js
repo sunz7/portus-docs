@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportus_docs=self.webpackChunkportus_docs||[]).push([[424],{9439:function(o){o.exports=JSON.parse('{"permalink":"/portus-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportus_docs=self.webpackChunkportus_docs||[]).push([[6],{7914:function(s){s.exports=JSON.parse('{"allTagsPath":"/portus-docs/blog/tags","name":"docusaurus","count":4,"permalink":"/portus-docs/blog/tags/docusaurus"}')}}]);
