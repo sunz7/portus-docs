@@ -101,26 +101,26 @@ const config = {
                 to: '/docs/intro',
               },
               {
+                href: 'https://bitcoin.org/bitcoin.pdf',
                 label: 'White Paper',
-                to: '/docs/white-paper',
+              },
+              {
+                label: 'Blog',
+                to: '/blog',
               },
             ],
           },
           
           {
-            title: 'Community',
+            title: 'Contact Us',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://www.discord.com',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://www.twitter.com',
               },
             ],
           },
@@ -128,17 +128,18 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                href: 'https://www.notion.so/Join-Portus-Metaverse-Distribution-Protocol-for-Web3-dea4bc28dcad4573aacd3d9febc591a0',
+                label: 'Job Posting',
+                position: 'right',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/portus-protocol/portus-api',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Portus, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
