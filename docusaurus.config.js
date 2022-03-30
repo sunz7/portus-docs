@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Portus',
+  tagline: 'Metaverse Distribution Protocol',
   url: 'https://sunz7.github.io',
   baseUrl: '/portus-docs/',
   onBrokenLinks: 'throw',
@@ -43,21 +43,48 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Portus',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Portus Logo',
+          src: 'img/portus.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
+            position: 'right',
+            label: 'Guide',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://bitcoin.org/bitcoin.pdf',
+            label: 'White Paper',
+            position: 'right',
+          },
+          {to: '/blog', label: 'Blog', position: 'right'},
+          {to: '/showcase', label: 'Showcase', position: 'right'},
+          {
+            href: 'https://www.notion.so/Join-Portus-Metaverse-Distribution-Protocol-for-Web3-dea4bc28dcad4573aacd3d9febc591a0',
+            label: 'Job Posting',
+            position: 'right',
+          },
+          {
+            type: 'dropdown',
+            label: 'Contact Us',
+            position: 'right',
+            items: [
+              {
+                label: 'Discord',
+                href: 'https://www.discord.com',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://www.twitter.com',
+              },
+              // ... more items
+            ],
+          },
+          {
+            href: 'https://github.com/portus-protocol/portus-api',
             label: 'GitHub',
             position: 'right',
           },
@@ -70,11 +97,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Guide',
                 to: '/docs/intro',
+              },
+              {
+                label: 'White Paper',
+                to: '/docs/white-paper',
               },
             ],
           },
+          
           {
             title: 'Community',
             items: [
